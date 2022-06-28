@@ -88,7 +88,7 @@ select_min = TRUE,
 
 select_last = TRUE,
 
-# Returns a data frame with specific run dates when the function is run
+# Returns a data frame with specific run dates when the function is run for the year
 
 
 get_dataset = TRUE
