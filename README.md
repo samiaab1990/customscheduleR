@@ -8,7 +8,7 @@
 
 <!-- badges: end -->
 
-customscheduleR provides greater flexibility to customize run dates when using cronR or taskscheduleR through the `customize_schedule()` wrapper function. While standard job scheduling packages allow for running on specific days of the week or days of the month, creating more specific schedules is not feasible. The customscheduleR package allows:
+customscheduleR provides greater flexibility to customize run dates when using cronR or taskscheduleR through the `customize_schedule()` wrapper function. While standard job scheduling packages allow for running on specific days of the week or days of the month, further specifications are not as feasible to create. The customscheduleR package allows:
 
 1. Running jobs on specific dates only 
 
