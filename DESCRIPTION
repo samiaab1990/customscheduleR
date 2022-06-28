@@ -1,0 +1,17 @@
+Package: customscheduleR
+Type: Package
+Title: Create customized run dates for cronR or taskscheduleR jobs
+Version: 0.1.0
+Author: Samia B
+Maintainer: Samia B <samiaab1990@gmail.com>
+Description: Wrapper for cronR or taskscheduleR that provides more flexibility and convenience in customizing run dates. Version 0.1.0 requires cronR or taskscheduleR to be installed and a job or task scheduled for daily at the desired time and daily frequency (minutely, hourly, or once daily) with the custom_schedule function defined at the beginning of the automated script.
+Imports:
+  dplyr,
+  lubridate
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
