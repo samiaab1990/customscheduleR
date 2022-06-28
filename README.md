@@ -33,7 +33,7 @@ You can install the development version of customscheduleR from [GitHub](https:/
 devtools::install_github("samiaab1990/customscheduleR")
 ```
 
-The `customize_schedule()` function should be placed at the beginning of the script. 
+The `customize_schedule()` function should be placed after `library(customscheduleR)` is called and before the rest of the script that should run on the specific day.
 
 ## Example
 
