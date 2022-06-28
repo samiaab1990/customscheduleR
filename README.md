@@ -22,7 +22,7 @@ customscheduleR provides greater flexibility to customize run dates when using c
 
 6. Getting a data frame of dates in the year the script will run.
 
-The current version requires separate installation of cronR or taskscheduleR and a daily job at the desired time and daily frequency (minute, hourly or simply daily). The customscheduleR package then provides the option defining criteria for the specific days the script should/should not run. 
+The current version requires separate installation of cronR or taskscheduleR and a daily job at the desired time and daily frequency (minute, hourly or daily). The customscheduleR package then provides the option defining criteria for the specific days in the current year the script should/should not run. The start date refreshes to January 1st at the beginning of every year. 
 
 ## Installation
 
