@@ -32,10 +32,11 @@ You can install the development version of customscheduleR from [GitHub](https:/
 # install.packages("devtools")
 devtools::install_github("samiaab1990/customscheduleR")
 ```
-
-The `customize_schedule()` function should be placed after `library(customscheduleR)` is called and before the rest of the script that should run on the specific day.
+<b>Note:</b> This version of customschedule R requires separate installation of cronR and taskscheduleR and a job already added  for the specific task which customscheduleR will be used for. 
 
 ## Example
+
+The `customize_schedule()` function should be placed after `library(customscheduleR)` is called and before the rest of the script that should run on the specific day.
 
 
 ``` r
@@ -88,7 +89,7 @@ select_min = TRUE,
 
 select_last = TRUE,
 
-# Returns a data frame with specific run dates when the function is run for the year
+# Returns a data frame with specific run dates for the year 
 
 
 get_dataset = TRUE
@@ -96,4 +97,5 @@ get_dataset = TRUE
 )
 
 ```
-If the current date is not in the customized schedule, then the function returns an error and halts the job from running. Otherwise, it returns a statement of successful job run.
+
+If the current system date is within the date parameters defined in `custom_schedule()`, the job will run and print a successful run in the log file. If the current system date is not within the date parameters defined in `custom_schedule()`, the function returns an error and halts the rest of the script. 
